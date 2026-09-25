@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FABLE - Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FABLE Analytics</h1>
+    <p>SIH26152 - Social Media Analytics</p>
+  </header>
+
+  <main>
+    <section id="upload-section">
+      <h2>Upload your data</h2>
+      <input type="file" id="fileInput" accept=".csv">
+      <button id="uploadBtn">Analyze</button>
+      <p id="status"></p>
+    </section>
+
+    <section id="results-section">
+      <h2>Results</h2>
+      <div id="resultsOutput">
+        <!-- Adiya: charts and insight text render here -->
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
